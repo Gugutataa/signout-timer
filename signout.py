@@ -9,3 +9,8 @@ pyautogui.hotkey("win", "m")
 pyautogui.hotkey("alt", "f4")
 pyautogui.press(["up", "up"])
 pyautogui.press("enter")
+#sometimes it doesnt register the first alt+f4
+pyautogui.hotkey("win", "m")
+pyautogui.hotkey("alt", "f4")
+pyautogui.press(["up", "up"])
+pyautogui.press("enter")
